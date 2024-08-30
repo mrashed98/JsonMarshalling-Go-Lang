@@ -22,7 +22,9 @@ To run this project, you will need:
 
 To run the program, navigate into the project directory and execute:
 
-```go run main.go
+```
+go run main.go
+
 ```
 
 The output will display both marshaled and unmarshaled JSON data for demonstration purposes.
