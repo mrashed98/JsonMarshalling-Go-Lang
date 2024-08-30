@@ -15,7 +15,7 @@ The `main` package serves as the entry point of the program, demonstrating both 
 To run this project, you will need:
 
 1.  A Go development environment set up on your machine.
-2.  The `encoding/json` package is used for marshaling and unmarshaling JSON data. You can install it by running the command: `go get -u github.com/golang/protobuf/protoc-gen-go`
+2.  The `encoding/json` package is used for marshaling and unmarshaling JSON data.
 3.  An API endpoint to fetch user data from (as demonstrated in `TryUnmarshal` function).
 
 ## Usage
@@ -24,7 +24,6 @@ To run the program, navigate into the project directory and execute:
 
 ```
 go run main.go
-
 ```
 
 The output will display both marshaled and unmarshaled JSON data for demonstration purposes.
